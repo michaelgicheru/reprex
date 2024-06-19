@@ -16,7 +16,8 @@ library(gt)
 
 ```{r, printtable}
 #| expandable: false
-head(starwars)
+starwars |> 
+  gt(id = "custom")
 ```
 
 ## Column {width=65%}
