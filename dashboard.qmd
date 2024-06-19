@@ -1,0 +1,22 @@
+---
+title: "table"
+format: 
+  dashboard: 
+    orientation: columns
+---
+
+## Column {width=35%}
+
+```{r, tidyverse}
+#| echo: false
+#| include: false
+library(tidyverse)
+library(gt)
+```
+
+```{r, printtable}
+#| expandable: false
+head(starwars)
+```
+
+## Column {width=65%}
