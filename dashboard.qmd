@@ -3,6 +3,7 @@ title: "table"
 format: 
   dashboard: 
     orientation: columns
+prefer_html: true
 ---
 
 ## Column {width=35%}
@@ -16,8 +17,8 @@ library(gt)
 
 ```{r, printtable}
 #| expandable: false
-ggplot(mpg, aes(x = displ, y = hwy)) +
-  geom_point()
+starwars |> 
+  gt()
 ```
 
 ## Column {width=65%}

@@ -9,13 +9,6 @@
     ]
   },
   "Packages": {
-    "AsioHeaders": {
-      "Package": "AsioHeaders",
-      "Version": "1.22.1-2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "85bf3bd8fa58da21a22d84fd4f4ef0a8"
-    },
     "DBI": {
       "Package": "DBI",
       "Version": "1.2.3",
@@ -762,19 +755,6 @@
         "yaml"
       ],
       "Hash": "04291cc45198225444a397606810ac37"
-    },
-    "httpgd": {
-      "Package": "httpgd",
-      "Version": "2.0.2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "AsioHeaders",
-        "R",
-        "cpp11",
-        "unigd"
-      ],
-      "Hash": "c30fb41ccc97f7797735633dccb9fcae"
     },
     "httr": {
       "Package": "httr",
@@ -1546,18 +1526,6 @@
         "cpp11"
       ],
       "Hash": "f561504ec2897f4d46f0c7657e488ae1"
-    },
-    "unigd": {
-      "Package": "unigd",
-      "Version": "0.1.2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "cpp11",
-        "systemfonts"
-      ],
-      "Hash": "9ed4b1941002ff508006885c66b5e473"
     },
     "utf8": {
       "Package": "utf8",
