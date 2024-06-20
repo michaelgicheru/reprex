@@ -12,6 +12,7 @@ format:
 #| include: false
 library(tidyverse)
 library(gt)
+library(httpgd)
 ```
 
 ```{r, printtable}
