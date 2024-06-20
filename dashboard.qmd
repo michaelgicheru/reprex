@@ -12,13 +12,12 @@ format:
 #| include: false
 library(tidyverse)
 library(gt)
-library(httpgd)
 ```
 
 ```{r, printtable}
 #| expandable: false
-starwars |> 
-  gt(id = "custom")
+ggplot(mpg, aes(x = displ, y = hwy)) +
+  geom_point()
 ```
 
 ## Column {width=65%}
